@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3C888E"
+        android:src="@drawable/splashfix"></ImageView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:id="@+id/button1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittextcustom"
+        android:hint="Username or Email"
+        android:padding="11dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:background="@drawable/edittextcustom"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="11dp">
+    </EditText>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/buttoncustom"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:id="@+id/signinmasuk"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Sign In"
+        android:textColor="@color/white">
+    </androidx.appcompat.widget.AppCompatButton>
+    
+    <TextView
+        android:id="@+id/lupa"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:text="New To Bank Apps? Sign Up"
+        android:textSize="15dp"
+        android:textColor="#FF0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_below="@id/signinmasuk">
+
+    </TextView>
+
+
+
+</RelativeLayout>
